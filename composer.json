@@ -1,0 +1,21 @@
+{
+    "name": "billytsai/hellopackage",
+    "description": "the first package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Billytsai\\Hellopackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cil4n",
+            "email": "aoo043826@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "8.*.*"
+    }
+}
